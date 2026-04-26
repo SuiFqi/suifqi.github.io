@@ -65,29 +65,63 @@
     </section>
 
     <!-- 作品 -->
-    <section id="projects" class="section">
-        <h2 class="section-title">近期作品</h2>
-        <div class="projects-grid">
-            <div class="project-card">
+<!-- 作品 -->
+<section id="projects" class="section">
+    <h2 class="section-title">近期作品</h2>
+    <div class="projects-grid">
+
+        <!-- 卡片1：图片展示 -->
+        <div class="project-card">
+            <div class="project-media">
+                <img src="project1.jpg" alt="品牌视觉设计预览">
+            </div>
+            <div class="project-info">
                 <h3>品牌视觉设计</h3>
                 <p>为一家独立咖啡店设计的logo、菜单及周边物料，探索情感化视觉语言。</p>
                 <span class="tag">品牌设计</span>
                 <span class="tag">Illustrator</span>
             </div>
-            <div class="project-card">
+        </div>
+
+        <!-- 卡片2：自托管视频（带封面图） -->
+        <div class="project-card">
+            <div class="project-media">
+                <video controls poster="project-video-cover.jpg">
+                    <source src="project-video.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            </div>
+            <div class="project-info">
                 <h3>动态短片《城市呼吸》</h3>
                 <p>使用AE与实拍素材结合，表达城市节奏与个人情绪的视觉实验短片。</p>
                 <span class="tag">动态图形</span>
                 <span class="tag">After Effects</span>
             </div>
-            <div class="project-card">
+        </div>
+
+        <!-- 卡片3：YouTube 嵌入（或 Bilibili） -->
+        <div class="project-card">
+            <div class="project-media">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/你的视频ID" 
+                        title="音乐App界面重设计展示" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="project-info">
                 <h3>音乐App界面重设计</h3>
                 <p>以提升用户体验为目标，对现有一款音乐App进行的交互原型与视觉升级。</p>
                 <span class="tag">UI/UX</span>
                 <span class="tag">Figma</span>
             </div>
         </div>
-    </section>
+
+    </div>
+</section>
 
     <!-- 联系 -->
     <section id="contact" class="section">
@@ -108,7 +142,7 @@
     </section>
 
     <footer>
-        <p>© 2026 七七</p>
+        <p>© 2026 七七 | 数字媒体艺术毕业作品集</p>
     </footer>
 
     <!-- 移动端菜单交互 (可保留或移入独立 JS) -->
