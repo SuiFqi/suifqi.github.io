@@ -1,6 +1,6 @@
 title: 七七
 description: 个人博客
-site_title: '@abhn - Abhishek Nagekar'
+site_title: 
 
 # Build settings
 markdown: kramdown
@@ -15,7 +15,7 @@ twitter_username: qiqi
 reddit_username: qiqi
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture:qiqi/assets/images/pp.jpg
 
 # Google Analytics ID
 google_analytics: 
