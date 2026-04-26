@@ -1,5 +1,5 @@
 title: 七七
-description: Web & Security Engineer
+description: 个人博客
 site_title: '@abhn - Abhishek Nagekar'
 
 # Build settings
@@ -8,7 +8,7 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: qiqi
-blog_url: https://www.nagekar.com
+blog_url: 
 email: aign213@foxmail.com
 keybase_username: qiqi
 twitter_username: qiqi
